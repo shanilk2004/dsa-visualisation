@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Defines the language of the document as English -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Specifies the character encoding for the document as UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page scales correctly on different devices -->
+  <title>Choose the Operation</title> <!-- Sets the title of the webpage, displayed in the browser tab -->
+  <style>
+    /* Styling for the entire page */
+    body {
+      background-color: black;  /* Sets the background color of the page to black */
+      color: white;  /* Sets the text color to white */
+      font-family: Arial, sans-serif;  /* Specifies the font style for text */
+      text-align: center;  /* Centers the text on the page */
+    }
+
+    h1 {
+      margin-bottom: 20px;  /* Adds space below the heading */
+    }
+
+    /* Container for buttons */
+    .button-container {
+      display: flex;  /* Uses flexbox layout for aligning buttons */
+      flex-wrap: wrap;  /* Allows buttons to wrap to the next line if needed */
+      justify-content: center;  /* Centers the buttons horizontally */
+      gap: 20px;  /* Adds 20px space between buttons */
+    }
+
+    /* Common styling for buttons */
+    .btn {
+      padding: 20px 40px;  /* Adds 20px padding on top and bottom, 40px on left and right */
+      border: none;  /* Removes the default border */
+      font-size: 18px;  /* Sets the font size to 18px */
+      color: white;  /* Sets the text color inside the button to white */
+      cursor: pointer;  /* Changes the mouse cursor to a pointer when hovering over the button */
+      border-radius: 8px;  /* Rounds the corners of the button */
+    }
+
+    /* Individual button colors */
+    .yellow { background-color: yellow; color: black; }  /* Yellow button with black text */
+    .brown { background-color: brown; }  /* Brown button */
+    .blue { background-color: steelblue; }  /* Blue button */
+    .green { background-color: green; }  /* Green button */
+
+    /* Button hover effect */
+    .btn:hover {
+      transform: scale(1.05);  /* Slightly increases the size of the button on hover */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Heading of the page -->
+  <h1>Choose the Operation</h1>
+
+  <!-- Container for buttons -->
+  <div class="button-container">
+    <!-- Button for Binary Sort -->
+    <button class="btn yellow" onclick="binarySort()">Binary Sort</button>
+    <!-- Button for Selection Sort -->
+    <button class="btn brown" onclick="selectionSort()">Selection Sort</button>
+    <!-- Button for Insertion Sort -->
+    <button class="btn blue" onclick="insertionSort()">Insertion Sort</button>
+    <!-- Button for Binary Search -->
+    <button class="btn green" onclick="binarySearch()">Binary Search</button>
+  </div>
+
+  <script>
+    /* JavaScript functions for each button */
+    function binarySort() {
+      alert("Binary Sort Selected");  /* Displays an alert when the Binary Sort button is clicked */
+      // Add your logic here
+    }
+
+    function selectionSort() {
+      alert("Selection Sort Selected");  /* Displays an alert when the Selection Sort button is clicked */
+      // Add your logic here
+    }
+
+    function insertionSort() {
+      alert("Insertion Sort Selected");  /* Displays an alert when the Insertion Sort button is clicked */
+      // Add your logic here
+    }
+
+    function binarySearch() {
+      alert("Binary Search Selected");  /* Displays an alert when the Binary Search button is clicked */
+      // Add your logic here
+    }
+  </script>
+</body>
+</html>

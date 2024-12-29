@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    border-left: 2cm;
+    border-right: 2cm;
+    text-align: center;
+    color: white;
+}
+
+.btncnt{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.btn{
+    width: 600x;
+    height: 120px;
+    font-size: 40px;
+    padding: 40px 80px;
+    border-radius: 60px;
+    color: white;
+}
+
+.yellow{background-color: yellow;}
+.red{background-color: red;}
+.blue{background-color: blue;}
+.green{background-color: green;}
+
